@@ -1,5 +1,8 @@
 # Makefile.am for the SDL sample image loading library and viewer
 
+ACLOCAL_AMFLAGS = -I acinclude
+AM_LIBTOOLFLAGS = --tag=LINK
+
 lib_LTLIBRARIES = libSDL_image.la
 
 libSDL_imageincludedir = $(includedir)/SDL
