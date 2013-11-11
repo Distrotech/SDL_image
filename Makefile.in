@@ -401,6 +401,7 @@ top_build_prefix = @top_build_prefix@
 top_builddir = @top_builddir@
 top_srcdir = @top_srcdir@
 ACLOCAL_AMFLAGS = -I acinclude
+AM_LIBTOOLFLAGS = --tag=LINK
 lib_LTLIBRARIES = libSDL2_image.la
 libSDL2_imageincludedir = $(includedir)/SDL2
 libSDL2_imageinclude_HEADERS = \
