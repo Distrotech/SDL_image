@@ -25,11 +25,7 @@ AC_SUBST(INTERFACE_AGE)
 AC_SUBST(BINARY_AGE)
 AC_SUBST(VERSION)
 
-<<<<<<< HEAD
 AC_CONFIG_MACRO_DIR(acinclude)
-=======
-AC_CONFIG_MACRO_DIR([acinclude])
->>>>>>> dbeb697... Add LT flags
 
 # libtool versioning
 LT_INIT([win32-dll])
